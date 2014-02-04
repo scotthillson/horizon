@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710230C614EEE4F5003C8095 /* compass57.png in Resources */ = {isa = PBXBuildFile; fileRef = 71485CCF14EC8C28007B3FDC /* compass57.png */; };
+		710230C714EEE4F8003C8095 /* compass114.png in Resources */ = {isa = PBXBuildFile; fileRef = 71485CCD14EC8C24007B3FDC /* compass114.png */; };
+		710302CF158C212F00722943 /* bluePause.png in Resources */ = {isa = PBXBuildFile; fileRef = 710302CE158C212F00722943 /* bluePause.png */; };
+		710302D2158C213700722943 /* bluePlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 710302D1158C213700722943 /* bluePlay.png */; };
+		710302D4158C228400722943 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 710302D3158C228400722943 /* delete.png */; };
+		7111D4371586EF220058DFDD /* Indent.png in Resources */ = {isa = PBXBuildFile; fileRef = 7111D4361586EF220058DFDD /* Indent.png */; };
+		71485C7714EB39C0007B3FDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71485C7614EB39C0007B3FDC /* UIKit.framework */; };
+		71485C7914EB39C0007B3FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71485C7814EB39C0007B3FDC /* Foundation.framework */; };
+		71485C7B14EB39C0007B3FDC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71485C7A14EB39C0007B3FDC /* CoreData.framework */; };
+		71485C8114EB39C0007B3FDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71485C7F14EB39C0007B3FDC /* InfoPlist.strings */; };
+		71485C8314EB39C0007B3FDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71485C8214EB39C0007B3FDC /* main.m */; };
+		71485C8714EB39C0007B3FDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71485C8614EB39C0007B3FDC /* AppDelegate.m */; };
+		71485C8A14EB39C0007B3FDC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71485C8814EB39C0007B3FDC /* MainStoryboard.storyboard */; };
+		71485C8D14EB39C0007B3FDC /* horizon_Drive.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71485C8B14EB39C0007B3FDC /* horizon_Drive.xcdatamodeld */; };
+		71485C9014EB39C0007B3FDC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71485C8F14EB39C0007B3FDC /* MainViewController.m */; };
+		71485C9314EB39C0007B3FDC /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71485C9214EB39C0007B3FDC /* FlipsideViewController.m */; };
+		71485C9B14EB39C1007B3FDC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71485C9A14EB39C1007B3FDC /* SenTestingKit.framework */; };
+		71485C9C14EB39C1007B3FDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71485C7614EB39C0007B3FDC /* UIKit.framework */; };
+		71485C9D14EB39C1007B3FDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71485C7814EB39C0007B3FDC /* Foundation.framework */; };
+		71485C9E14EB39C1007B3FDC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71485C7A14EB39C0007B3FDC /* CoreData.framework */; };
+		71485CA614EB39C1007B3FDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71485CA414EB39C1007B3FDC /* InfoPlist.strings */; };
+		71485CA914EB39C1007B3FDC /* horizon_DriveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71485CA814EB39C1007B3FDC /* horizon_DriveTests.m */; };
+		71485CC514EC7F4D007B3FDC /* LocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71485CC414EC7F4D007B3FDC /* LocationController.m */; };
+		71485CC814EC84AE007B3FDC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71485CC714EC84AE007B3FDC /* CoreLocation.framework */; };
+		7155C62E1586F965008C308C /* indentSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 7155C62D1586F965008C308C /* indentSmall.png */; };
+		71D41A97157752D00030BE5F /* lightGradientRoundedRectangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 71D41A96157752D00030BE5F /* lightGradientRoundedRectangle.png */; };
+		71FDE8F9157FFB4500930426 /* HorizonBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FDE8F8157FFB4500930426 /* HorizonBrain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71485C9F14EB39C1007B3FDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71485C6914EB39C0007B3FDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71485C7114EB39C0007B3FDC;
+			remoteInfo = "horizon Drive";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		710302CE158C212F00722943 /* bluePause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluePause.png; sourceTree = "<group>"; };
+		710302D1158C213700722943 /* bluePlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluePlay.png; sourceTree = "<group>"; };
+		710302D3158C228400722943 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		7111D4361586EF220058DFDD /* Indent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indent.png; sourceTree = "<group>"; };
+		71485C7214EB39C0007B3FDC /* horizon Drive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "horizon Drive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71485C7614EB39C0007B3FDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71485C7814EB39C0007B3FDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71485C7A14EB39C0007B3FDC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		71485C7E14EB39C0007B3FDC /* horizon Drive-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "horizon Drive-Info.plist"; sourceTree = "<group>"; };
+		71485C8014EB39C0007B3FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71485C8214EB39C0007B3FDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71485C8414EB39C0007B3FDC /* horizon Drive-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "horizon Drive-Prefix.pch"; sourceTree = "<group>"; };
+		71485C8514EB39C0007B3FDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71485C8614EB39C0007B3FDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71485C8914EB39C0007B3FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		71485C8C14EB39C0007B3FDC /* horizon_Drive.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = horizon_Drive.xcdatamodel; sourceTree = "<group>"; };
+		71485C8E14EB39C0007B3FDC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		71485C8F14EB39C0007B3FDC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		71485C9114EB39C0007B3FDC /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		71485C9214EB39C0007B3FDC /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		71485C9914EB39C1007B3FDC /* horizon DriveTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "horizon DriveTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71485C9A14EB39C1007B3FDC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		71485CA314EB39C1007B3FDC /* horizon DriveTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "horizon DriveTests-Info.plist"; sourceTree = "<group>"; };
+		71485CA514EB39C1007B3FDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71485CA714EB39C1007B3FDC /* horizon_DriveTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = horizon_DriveTests.h; sourceTree = "<group>"; };
+		71485CA814EB39C1007B3FDC /* horizon_DriveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = horizon_DriveTests.m; sourceTree = "<group>"; };
+		71485CC314EC7F4D007B3FDC /* LocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationController.h; sourceTree = "<group>"; };
+		71485CC414EC7F4D007B3FDC /* LocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationController.m; sourceTree = "<group>"; };
+		71485CC714EC84AE007B3FDC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		71485CCD14EC8C24007B3FDC /* compass114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass114.png; path = ../compass114.png; sourceTree = "<group>"; };
+		71485CCF14EC8C28007B3FDC /* compass57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = compass57.png; path = ../compass57.png; sourceTree = "<group>"; };
+		7155C62D1586F965008C308C /* indentSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indentSmall.png; sourceTree = "<group>"; };
+		71D41A96157752D00030BE5F /* lightGradientRoundedRectangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightGradientRoundedRectangle.png; sourceTree = "<group>"; };
+		71FDE8F7157FFB4500930426 /* HorizonBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonBrain.h; sourceTree = "<group>"; };
+		71FDE8F8157FFB4500930426 /* HorizonBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonBrain.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71485C6F14EB39C0007B3FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71485CC814EC84AE007B3FDC /* CoreLocation.framework in Frameworks */,
+				71485C7714EB39C0007B3FDC /* UIKit.framework in Frameworks */,
+				71485C7914EB39C0007B3FDC /* Foundation.framework in Frameworks */,
+				71485C7B14EB39C0007B3FDC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71485C9514EB39C1007B3FDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71485C9B14EB39C1007B3FDC /* SenTestingKit.framework in Frameworks */,
+				71485C9C14EB39C1007B3FDC /* UIKit.framework in Frameworks */,
+				71485C9D14EB39C1007B3FDC /* Foundation.framework in Frameworks */,
+				71485C9E14EB39C1007B3FDC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71485C6714EB39C0007B3FDC = {
+			isa = PBXGroup;
+			children = (
+				71485CC714EC84AE007B3FDC /* CoreLocation.framework */,
+				71485C7C14EB39C0007B3FDC /* horizon Drive */,
+				71485CA114EB39C1007B3FDC /* horizon DriveTests */,
+				71485C7514EB39C0007B3FDC /* Frameworks */,
+				71485C7314EB39C0007B3FDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71485C7314EB39C0007B3FDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71485C7214EB39C0007B3FDC /* horizon Drive.app */,
+				71485C9914EB39C1007B3FDC /* horizon DriveTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71485C7514EB39C0007B3FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71485C7614EB39C0007B3FDC /* UIKit.framework */,
+				71485C7814EB39C0007B3FDC /* Foundation.framework */,
+				71485C7A14EB39C0007B3FDC /* CoreData.framework */,
+				71485C9A14EB39C1007B3FDC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71485C7C14EB39C0007B3FDC /* horizon Drive */ = {
+			isa = PBXGroup;
+			children = (
+				71485C8514EB39C0007B3FDC /* AppDelegate.h */,
+				71485C8614EB39C0007B3FDC /* AppDelegate.m */,
+				71485C8814EB39C0007B3FDC /* MainStoryboard.storyboard */,
+				71485C8E14EB39C0007B3FDC /* MainViewController.h */,
+				71485C8F14EB39C0007B3FDC /* MainViewController.m */,
+				71485C9114EB39C0007B3FDC /* FlipsideViewController.h */,
+				71485C9214EB39C0007B3FDC /* FlipsideViewController.m */,
+				71485CC314EC7F4D007B3FDC /* LocationController.h */,
+				71485CC414EC7F4D007B3FDC /* LocationController.m */,
+				71FDE8F7157FFB4500930426 /* HorizonBrain.h */,
+				71FDE8F8157FFB4500930426 /* HorizonBrain.m */,
+				71485C8B14EB39C0007B3FDC /* horizon_Drive.xcdatamodeld */,
+				71485C7D14EB39C0007B3FDC /* Supporting Files */,
+			);
+			path = "horizon Drive";
+			sourceTree = "<group>";
+		};
+		71485C7D14EB39C0007B3FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71485CCF14EC8C28007B3FDC /* compass57.png */,
+				71485CCD14EC8C24007B3FDC /* compass114.png */,
+				71485C7E14EB39C0007B3FDC /* horizon Drive-Info.plist */,
+				7155C62D1586F965008C308C /* indentSmall.png */,
+				7111D4361586EF220058DFDD /* Indent.png */,
+				710302D3158C228400722943 /* delete.png */,
+				71485C7F14EB39C0007B3FDC /* InfoPlist.strings */,
+				71485C8214EB39C0007B3FDC /* main.m */,
+				710302D1158C213700722943 /* bluePlay.png */,
+				710302CE158C212F00722943 /* bluePause.png */,
+				71485C8414EB39C0007B3FDC /* horizon Drive-Prefix.pch */,
+				71D41A96157752D00030BE5F /* lightGradientRoundedRectangle.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71485CA114EB39C1007B3FDC /* horizon DriveTests */ = {
+			isa = PBXGroup;
+			children = (
+				71485CA714EB39C1007B3FDC /* horizon_DriveTests.h */,
+				71485CA814EB39C1007B3FDC /* horizon_DriveTests.m */,
+				71485CA214EB39C1007B3FDC /* Supporting Files */,
+			);
+			path = "horizon DriveTests";
+			sourceTree = "<group>";
+		};
+		71485CA214EB39C1007B3FDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71485CA314EB39C1007B3FDC /* horizon DriveTests-Info.plist */,
+				71485CA414EB39C1007B3FDC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71485C7114EB39C0007B3FDC /* horizon Drive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71485CAC14EB39C1007B3FDC /* Build configuration list for PBXNativeTarget "horizon Drive" */;
+			buildPhases = (
+				71485C6E14EB39C0007B3FDC /* Sources */,
+				71485C6F14EB39C0007B3FDC /* Frameworks */,
+				71485C7014EB39C0007B3FDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "horizon Drive";
+			productName = "horizon Drive";
+			productReference = 71485C7214EB39C0007B3FDC /* horizon Drive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71485C9814EB39C1007B3FDC /* horizon DriveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71485CAF14EB39C1007B3FDC /* Build configuration list for PBXNativeTarget "horizon DriveTests" */;
+			buildPhases = (
+				71485C9414EB39C1007B3FDC /* Sources */,
+				71485C9514EB39C1007B3FDC /* Frameworks */,
+				71485C9614EB39C1007B3FDC /* Resources */,
+				71485C9714EB39C1007B3FDC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71485CA014EB39C1007B3FDC /* PBXTargetDependency */,
+			);
+			name = "horizon DriveTests";
+			productName = "horizon DriveTests";
+			productReference = 71485C9914EB39C1007B3FDC /* horizon DriveTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71485C6914EB39C0007B3FDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Dr Bott LLC";
+			};
+			buildConfigurationList = 71485C6C14EB39C0007B3FDC /* Build configuration list for PBXProject "horizon Drive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71485C6714EB39C0007B3FDC;
+			productRefGroup = 71485C7314EB39C0007B3FDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71485C7114EB39C0007B3FDC /* horizon Drive */,
+				71485C9814EB39C1007B3FDC /* horizon DriveTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71485C7014EB39C0007B3FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71485C8114EB39C0007B3FDC /* InfoPlist.strings in Resources */,
+				71485C8A14EB39C0007B3FDC /* MainStoryboard.storyboard in Resources */,
+				710230C614EEE4F5003C8095 /* compass57.png in Resources */,
+				710230C714EEE4F8003C8095 /* compass114.png in Resources */,
+				71D41A97157752D00030BE5F /* lightGradientRoundedRectangle.png in Resources */,
+				7111D4371586EF220058DFDD /* Indent.png in Resources */,
+				7155C62E1586F965008C308C /* indentSmall.png in Resources */,
+				710302CF158C212F00722943 /* bluePause.png in Resources */,
+				710302D2158C213700722943 /* bluePlay.png in Resources */,
+				710302D4158C228400722943 /* delete.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71485C9614EB39C1007B3FDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71485CA614EB39C1007B3FDC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71485C9714EB39C1007B3FDC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71485C6E14EB39C0007B3FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71485C8314EB39C0007B3FDC /* main.m in Sources */,
+				71485C8714EB39C0007B3FDC /* AppDelegate.m in Sources */,
+				71485C8D14EB39C0007B3FDC /* horizon_Drive.xcdatamodeld in Sources */,
+				71485C9014EB39C0007B3FDC /* MainViewController.m in Sources */,
+				71485C9314EB39C0007B3FDC /* FlipsideViewController.m in Sources */,
+				71485CC514EC7F4D007B3FDC /* LocationController.m in Sources */,
+				71FDE8F9157FFB4500930426 /* HorizonBrain.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71485C9414EB39C1007B3FDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71485CA914EB39C1007B3FDC /* horizon_DriveTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71485CA014EB39C1007B3FDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71485C7114EB39C0007B3FDC /* horizon Drive */;
+			targetProxy = 71485C9F14EB39C1007B3FDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71485C7F14EB39C0007B3FDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71485C8014EB39C0007B3FDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71485C8814EB39C0007B3FDC /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71485C8914EB39C0007B3FDC /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		71485CA414EB39C1007B3FDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71485CA514EB39C1007B3FDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71485CAA14EB39C1007B3FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71485CAB14EB39C1007B3FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71485CAD14EB39C1007B3FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "horizon Drive/horizon Drive-Prefix.pch";
+				INFOPLIST_FILE = "horizon Drive/horizon Drive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71485CAE14EB39C1007B3FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "horizon Drive/horizon Drive-Prefix.pch";
+				INFOPLIST_FILE = "horizon Drive/horizon Drive-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		71485CB014EB39C1007B3FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/horizon Drive.app/horizon Drive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "horizon Drive/horizon Drive-Prefix.pch";
+				INFOPLIST_FILE = "horizon DriveTests/horizon DriveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		71485CB114EB39C1007B3FDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/horizon Drive.app/horizon Drive";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "horizon Drive/horizon Drive-Prefix.pch";
+				INFOPLIST_FILE = "horizon DriveTests/horizon DriveTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71485C6C14EB39C0007B3FDC /* Build configuration list for PBXProject "horizon Drive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71485CAA14EB39C1007B3FDC /* Debug */,
+				71485CAB14EB39C1007B3FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71485CAC14EB39C1007B3FDC /* Build configuration list for PBXNativeTarget "horizon Drive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71485CAD14EB39C1007B3FDC /* Debug */,
+				71485CAE14EB39C1007B3FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71485CAF14EB39C1007B3FDC /* Build configuration list for PBXNativeTarget "horizon DriveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71485CB014EB39C1007B3FDC /* Debug */,
+				71485CB114EB39C1007B3FDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71485C8B14EB39C0007B3FDC /* horizon_Drive.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71485C8C14EB39C0007B3FDC /* horizon_Drive.xcdatamodel */,
+			);
+			currentVersion = 71485C8C14EB39C0007B3FDC /* horizon_Drive.xcdatamodel */;
+			path = horizon_Drive.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 71485C6914EB39C0007B3FDC /* Project object */;
+}
