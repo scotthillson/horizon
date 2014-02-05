@@ -271,9 +271,9 @@
 		if ( difference <= 40 & distanceTimeDouble > 0.05 || difference > 40 ) {
 			displayDistanceDouble = difference > 1 ? displayDistanceDouble + 1 : totalDistanceDouble ;
 			displayDistance = [ NSNumber numberWithDouble : displayDistanceDouble ] ;
-			displayDistanceDouble = displayDistanceDouble * ( measurementString == @"mph" ? kMetersToMiles : 0.001 ) ;
-			totalDistanceDouble = totalDistanceDouble * ( measurementString == @"mph" ? kMetersToMiles : 0.001 ) ;
-			distanceLabel.text = [ [ NSString alloc ] initWithFormat:@"%.2f %@", displayDistanceDouble , measurementString == @"mph" ? @" miles" : @" kilometres" ] ;
+			displayDistanceDouble = displayDistanceDouble * ( [measurementString isEqualToString: @"mph"] ? kMetersToMiles : 0.001 ) ;
+			totalDistanceDouble = totalDistanceDouble * ( [measurementString isEqualToString: @"mph"] ? kMetersToMiles : 0.001 ) ;
+			distanceLabel.text = [ [ NSString alloc ] initWithFormat:@"%.2f %@", displayDistanceDouble , [measurementString isEqualToString: @"mph"] ? @" miles" : @" kilometres" ] ;
 			measurement.text = measurementString ;
 			// distancetime is the time since our last distance label update
 			distanceTime = NSDate.date ;
@@ -353,7 +353,7 @@
 				displaySpeedDouble = actualSpeed ;
 			}
 		}
-		double multiplier = measurementString == @"mph" ? kMilesPerHour : kKilometersPerHour ;
+		double multiplier = [measurementString isEqualToString: @"mph"] ? kMilesPerHour : kKilometersPerHour ;
 		NSString *speedString = [ [ NSString alloc ] initWithFormat : @"%.0f" , displaySpeedDouble * multiplier ] ;
 		if ( speedometer.text != speedString ) { speedometer.text = speedString ; }
 		displaySpeed = [ NSNumber numberWithDouble : displaySpeedDouble ] ;
@@ -402,7 +402,7 @@
 }
 
 - (IBAction)measurePress:(id)sender {
-    if ( measurementString == @"mph" ) measurementString = @"kph" ;
+    if ( [measurementString isEqualToString: @"mph"] ) measurementString = @"kph" ;
     else measurementString = @"mph" ;
 }
 
