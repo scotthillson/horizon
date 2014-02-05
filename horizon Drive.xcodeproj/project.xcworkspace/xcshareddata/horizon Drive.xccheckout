@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>40ABC8D3-EE48-4774-A794-209B14F3C818</string>
+	<key>IDESourceControlProjectName</key>
+	<string>horizon Drive</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E84DB9D8-F715-4857-991D-F7FFFA40200F</key>
+		<string>https://github.com/scotthillson/Horizon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>horizon Drive.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E84DB9D8-F715-4857-991D-F7FFFA40200F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/scotthillson/Horizon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E84DB9D8-F715-4857-991D-F7FFFA40200F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E84DB9D8-F715-4857-991D-F7FFFA40200F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Horizon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
